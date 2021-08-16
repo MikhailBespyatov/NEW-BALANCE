@@ -1,0 +1,15 @@
+.sneakers-list-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+    overflow: none;
+
+    &:hover {
+        transform: scale(20deg);
+        box-shadow: 0 0 6px 6px rgb(228, 226, 226);
+        transition: 0.3s;
+        box-sizing: border-box;
+    }
+}

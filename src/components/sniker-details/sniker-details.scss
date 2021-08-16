@@ -1,0 +1,45 @@
+.sniker-details-image {
+    float: left;
+}
+
+.sniker-details-title {
+    font-size: 32px;
+}
+
+.sniker-details-item {
+    list-style: none;
+
+    font-size: 25px;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+
+    &--cart {
+        background: rgb(72, 197, 72) url('../header/img/cart.svg') no-repeat center;
+    }
+
+    &--cart span {
+        color: #fff;
+        font-size: 24px;
+    }
+
+    &--like {
+        background: rgb(48, 48, 156) url('../header/img/heart.svg') no-repeat center;
+    }
+
+    &--liked {
+        background: #fff url('../sneakers-item/img/heart-active.svg') no-repeat center;
+        box-shadow: 0 0 6px 6px rgb(228, 226, 226);
+    }
+
+    &--big {
+        width: 250px;
+        background-position: 90% 20%;
+    }
+}
